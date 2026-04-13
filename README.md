@@ -114,6 +114,13 @@ Unlike fixed personality types, NVatar uses a **continuous spectrum** across 4 M
 
 ```
 Phase 1: AI Core ✅ — personality, memory, emotion, 3D avatar, voice
+Phase 1.5: SDK Architecture ✅ — BehaviorPattern Registry, Franchise Memory, God Mode
+  ├── BehaviorPattern Registry ✅ — pluggable behavior system (relay/assisted/pure_chat)
+  ├── Franchise Memory 3-Track ✅ — Core + Franchise + User Profile separation
+  ├── God Mode ✅ — context_router + user_profiler (blind analysis)
+  ├── Identity Preservation ✅ — domain work doesn't change personality
+  ├── Code Assist (first pattern) ✅ — Claude Code relay via MCP channel
+  └── eKYSS partner integration 🔲 — designed, implementation pending
 Phase 2: Room Customization — furniture, themes, lighting
 Phase 3: Cell-Based Expansion — rooms grow from 1x1 to multi-cell layouts
 Phase 4: Neighbor Visits — avatars visit each other's rooms
@@ -169,6 +176,8 @@ The 2022 patent applications established the foundational concepts of **profile 
 ## Related Projects
 
 - [**NVatar**](https://github.com/nskit-io/nvatar) — The AI avatar engine this franchise architecture is built on
+- [**NVatar SDK**](https://github.com/nskit-io/nvatar-sdk) — SDK guide for building custom BehaviorPatterns (MIT)
+- [**NVatar Code Assist**](https://github.com/nskit-io/nvatar-code-assist) — Claude Code integration (first SDK pattern implementation)
 - [**NVatar Demo**](https://nskit-io.github.io/nvatar-demo/) — Try it in your browser
 - [**avatar-chat**](https://github.com/nskit-io/avatar-chat) — Prompt engineering for character AI
 - [**chat-like-human-memory**](https://github.com/nskit-io/chat-like-human-memory) — Emotion + personality + memory engine
