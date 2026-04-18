@@ -102,6 +102,24 @@ Not just **chat history** (every app does that).
 
 This is what moves with your avatar. This is what makes it yours.
 
+## Social Layer: One Personality, Many Relationships
+
+Most AI companions are locked to 1:1 user↔avatar dyads. NVatar extends the model so **your avatars know each other**.
+
+```
+User ↔ Avatar A     (personality forms here)
+User ↔ Avatar B     (personality forms here)
+Avatar A ↔ Avatar B (relationship intimacy — not personality)
+```
+
+- **Personality is singular** — shaped only by the user, never by other avatars.
+- **Relationships are many** — each pair tracks its own intimacy, interaction count, shared topics.
+- **Memory is track-scoped** — when A talks to B, A's conversation context is pulled from the A↔B track, not from A↔User. No cross-pollution.
+- **Speech adapts contextually** — same avatar uses your configured politeness with you, casual peer tone with other avatars.
+- **AFK-safe** — tab-hidden pauses avatar↔avatar dialogues; hourly cap prevents runaway accumulation. Safe for screensaver-style always-on scenarios.
+
+This is what makes **avatars as an ecosystem** possible, not just individual companions. Your avatars develop relationships with each other over time — without either's personality drifting from you.
+
 ## The MBTI Spectrum
 
 Unlike fixed personality types, NVatar uses a **continuous spectrum** across 4 MBTI dimensions (0-100 each). Your avatar is never "just an INTJ" — it's a nuanced personality that shifts naturally through conversation.
