@@ -16,7 +16,7 @@
 - 가상 아바타에 실제 인격이나 기억이 없습니다
 - 앱을 바꾸면 캐릭터 진행 상황이 초기화됩니다
 - Ready Player Me 서비스 종료 (2026년 1월) — 포터블 아바타 SDK 시장에 공백 발생
-- **AI 인격 + 3D 아바타 + 룸 + 크로스앱 이동**을 모두 결합한 플랫폼이 없습니다
+- **AI 인격 + 3D 아바타 + 룸 + 크로스앱 이동**을 모두 결합한 플랫폼은 드뭅니다
 
 ## 해결책
 
@@ -90,7 +90,7 @@ const room = NVatarSDK.createRoom({
 room.loadAvatar(userId);
 ```
 
-## 핵심 혁신: Personality Portability
+## 핵심 차별점: Personality Portability
 
 단순한 **비주얼** 아바타 이동이 아닙니다 (Ready Player Me가 했지만 — 결국 서비스를 종료했습니다).
 
@@ -135,8 +135,8 @@ Phase 1: AI Core ✅ — personality, memory, emotion, 3D avatar, voice
 Phase 2: Room Customization — furniture, themes, lighting
 Phase 3: Cell-Based Expansion — rooms grow from 1x1 to multi-cell layouts
 Phase 4: Neighbor Visits — avatars visit each other's rooms
-Phase 5: Buildings — 100x100 cell grid, apartment-style communities
-Phase 6: City — streets, shops, events, guilds
+
+Long-term vision: neighborhood-scale communities and shared social spaces
 ```
 
 ## 프라이버시 & 데이터 소유권

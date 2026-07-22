@@ -16,7 +16,7 @@
 - 虚拟形象没有真正的人格或记忆
 - 切换应用时角色进度被重置
 - Ready Player Me停止服务（2026年1月） — 便携式头像SDK市场出现真空
-- 没有平台能同时结合：**AI人格 + 3D虚拟形象 + 房间 + 跨应用可移植性**
+- 很少有平台能同时结合：**AI人格 + 3D虚拟形象 + 房间 + 跨应用可移植性**
 
 ## 解决方案
 
@@ -90,7 +90,7 @@ const room = NVatarSDK.createRoom({
 room.loadAvatar(userId);
 ```
 
-## 核心创新：Personality Portability
+## 核心差异：Personality Portability
 
 不只是**视觉**上的虚拟形象移植（Ready Player Me做过 — 后来关停了）。
 
@@ -135,8 +135,8 @@ Phase 1: AI Core ✅ — personality, memory, emotion, 3D avatar, voice
 Phase 2: Room Customization — furniture, themes, lighting
 Phase 3: Cell-Based Expansion — rooms grow from 1x1 to multi-cell layouts
 Phase 4: Neighbor Visits — avatars visit each other's rooms
-Phase 5: Buildings — 100x100 cell grid, apartment-style communities
-Phase 6: City — streets, shops, events, guilds
+
+Long-term vision: neighborhood-scale communities and shared social spaces
 ```
 
 ## 隐私与数据所有权

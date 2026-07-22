@@ -16,7 +16,7 @@
 - Virtual avatars have no real personality or memory
 - Character progress resets when you switch apps
 - Ready Player Me shut down (Jan 2026) — the portable avatar SDK market has a vacuum
-- No platform combines: **AI personality + 3D avatar + room + cross-app portability**
+- Few platforms combine: **AI personality + 3D avatar + room + cross-app portability**
 
 ## The Solution
 
@@ -90,7 +90,7 @@ const room = NVatarSDK.createRoom({
 room.loadAvatar(userId);
 ```
 
-## Key Innovation: Personality Portability
+## The Key Difference: Personality Portability
 
 Not just **visual** avatar portability (Ready Player Me did that — and shut down).
 
@@ -142,8 +142,8 @@ Phase 1.5: SDK Architecture ✅ — BehaviorPattern Registry, Franchise Memory, 
 Phase 2: Room Customization — furniture, themes, lighting
 Phase 3: Cell-Based Expansion — rooms grow from 1x1 to multi-cell layouts
 Phase 4: Neighbor Visits — avatars visit each other's rooms
-Phase 5: Buildings — 100x100 cell grid, apartment-style communities
-Phase 6: City — streets, shops, events, guilds
+
+Long-term vision: neighborhood-scale communities and shared social spaces
 ```
 
 ## Privacy & Data Ownership
