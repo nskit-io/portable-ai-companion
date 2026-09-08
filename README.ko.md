@@ -39,8 +39,14 @@ Avatar Profile:
   ├── Memory (L1 raw → L2 summary → L3 long-term keywords)
   ├── Emotions (9 dimensions including curiosity)
   ├── User Understanding (inferred MBTI + communication preferences)
-  └── Voice Identity (cloned voice, language-aware)
+  └── Voice (per-avatar selection, language-aware) ⚠️
 ```
+
+> ⚠️ **음성 — 현재 상태.** 설계상으로는 아바타마다 고유한 *클론* 음성을 갖습니다.
+> 이 기능이 의존하던 외부 클로닝 서비스 구독이 만료됐고, 대체 엔진이 프리빌트 음성 제공자라
+> 현재는 아바타가 음성을 **소유**하는 것이 아니라 **선택**합니다.
+> 언어 대응은 되어 있습니다(음성 목록과 기본값이 아바타 언어를 따릅니다).
+> 아바타별 클론 음성은 현재 제공되지 않습니다.
 
 ### 각 앱이 제공하는 것 (Context)
 

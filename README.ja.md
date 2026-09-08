@@ -39,8 +39,14 @@ Avatar Profile:
   ├── Memory (L1 raw → L2 summary → L3 long-term keywords)
   ├── Emotions (9 dimensions including curiosity)
   ├── User Understanding (inferred MBTI + communication preferences)
-  └── Voice Identity (cloned voice, language-aware)
+  └── Voice (per-avatar selection, language-aware) ⚠️
 ```
+
+> ⚠️ **音声 — 現在の状態。** 設計上はアバターごとに固有の*クローン*音声を持ちます。
+> 依存していた外部クローニングサービスの契約が終了し、代替エンジンがプリビルト音声の提供元であるため、
+> 現在アバターは音声を**所有**するのではなく**選択**します。
+> 言語対応は実装済みです（音声リストと既定値がアバターの言語に従います）。
+> アバターごとのクローン音声は現時点では提供していません。
 
 ### 各アプリが提供するもの（Context）
 

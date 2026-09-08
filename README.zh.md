@@ -39,8 +39,14 @@ Avatar Profile:
   ├── Memory (L1 raw → L2 summary → L3 long-term keywords)
   ├── Emotions (9 dimensions including curiosity)
   ├── User Understanding (inferred MBTI + communication preferences)
-  └── Voice Identity (cloned voice, language-aware)
+  └── Voice (per-avatar selection, language-aware) ⚠️
 ```
+
+> ⚠️ **语音 — 当前状态。** 设计上每个虚拟形象拥有独有的*克隆*语音。
+> 此功能依赖的外部克隆服务已到期，替代引擎为预置语音提供方，
+> 因此目前虚拟形象是**选择**语音，而非**拥有**语音。
+> 语言适配已就位（语音列表与默认值跟随虚拟形象的语言）。
+> 按虚拟形象克隆的语音目前尚未提供。
 
 ### 每个应用提供的内容（Context）
 

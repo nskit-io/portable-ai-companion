@@ -39,8 +39,14 @@ Avatar Profile:
   ├── Memory (L1 raw → L2 summary → L3 long-term keywords)
   ├── Emotions (9 dimensions including curiosity)
   ├── User Understanding (inferred MBTI + communication preferences)
-  └── Voice Identity (cloned voice, language-aware)
+  └── Voice (per-avatar selection, language-aware) ⚠️
 ```
+
+> ⚠️ **Voice — current status.** The design calls for a *cloned* voice unique to each avatar.
+> The external cloning service this depended on lapsed, and the replacement engine is a
+> prebuilt-voice provider, so today an avatar **selects** a voice rather than **owning** one.
+> Language-awareness is in place (the voice list and default follow the avatar's language).
+> Per-avatar cloned identity is not currently shipped.
 
 ### What Each App Provides (Context)
 
