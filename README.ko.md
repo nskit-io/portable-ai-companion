@@ -72,7 +72,7 @@ NVatar (Home App)
   └── World-shared items (usable across all apps)
 
 Partner Apps (Workplaces)
-  ├── eKYSS: Language learning — avatar becomes a tutor
+  ├── Language-learning app: avatar becomes a tutor
   ├── Therapy app: Counseling — avatar becomes a listener
   ├── Shopping: Virtual fitting — avatar becomes a stylist
   └── Each partner has own marketplace → own revenue
@@ -154,7 +154,7 @@ Long-term vision: neighborhood-scale communities and shared social spaces
 - **세밀한 내보내기 제어** — 사용자는 파트너 앱별로 전체 인격 또는 제한된 컨텍스트를 선택하여 공유할 수 있습니다
 - **파트너 앱은 인격 데이터를 저장하지 않습니다** — 세션 범위의 뷰만 수신하며, 정본 데이터는 NVatar에 존재합니다
 - **삭제할 권리** — 사용자가 단일 제어 지점에서 모든 파트너 앱의 데이터를 삭제할 수 있습니다
-- **로컬 우선 아키텍처** — 핵심 AI 추론이 사용자의 하드웨어에서 실행되어, 클라우드 노출을 최소화합니다
+- **로컬 LLM 코어** — 대화 추론은 외부 LLM API 가 아니라 운영자가 관리하는 하드웨어에서 실행되며, 클라우드 서비스는 사실 확인과 음성 합성에만 사용합니다
 
 ```mermaid
 graph LR
@@ -167,7 +167,7 @@ graph LR
     end
 
     subgraph Partners["Partner Apps"]
-        A1["eKYSS<br/>(Teacher)"]
+        A1["Language App<br/>(Teacher)"]
         A2["Therapy App<br/>(Counselor)"]
         A3["Shopping<br/>(Stylist)"]
     end
@@ -193,7 +193,7 @@ graph LR
 ## 관련 프로젝트
 
 - [**NVatar**](https://github.com/nskit-io/nvatar) — 이 프랜차이즈 아키텍처의 기반이 되는 AI 아바타 엔진
-- [**NVatar Demo**](https://nskit-io.github.io/nvatar-demo/) — 브라우저에서 체험하기
+- [**NVatar Demo**](https://nskit-io.github.io/nvatar-demo/) — 브라우저 데모 (데모 서버 점검으로 일시 중단, 소스에서 직접 실행 가능)
 - [**avatar-chat**](https://github.com/nskit-io/avatar-chat) — 캐릭터 AI를 위한 프롬프트 엔지니어링
 - [**chat-like-human-memory**](https://github.com/nskit-io/chat-like-human-memory) — 감정 + 인격 + 메모리 엔진
 - [**customize-local-llm**](https://github.com/nskit-io/customize-local-llm) — 로컬/클라우드 하이브리드 라우팅

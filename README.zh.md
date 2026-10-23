@@ -72,7 +72,7 @@ NVatar (Home App)
   └── World-shared items (usable across all apps)
 
 Partner Apps (Workplaces)
-  ├── eKYSS: Language learning — avatar becomes a tutor
+  ├── Language-learning app: avatar becomes a tutor
   ├── Therapy app: Counseling — avatar becomes a listener
   ├── Shopping: Virtual fitting — avatar becomes a stylist
   └── Each partner has own marketplace → own revenue
@@ -154,7 +154,7 @@ Long-term vision: neighborhood-scale communities and shared social spaces
 - **精细的导出控制** — 用户可以选择按合作伙伴应用共享完整人格或有限的上下文
 - **合作伙伴应用不存储人格数据** — 它们仅接收会话范围的视图，权威数据保留在NVatar中
 - **删除权** — 用户可以从单一控制点清除所有合作伙伴应用中的数据
-- **本地优先架构** — 核心AI推理在用户的硬件上运行，最大限度减少云端暴露
+- **本地LLM核心** — 对话推理在运营方管理的硬件上运行，而非第三方LLM API；云服务仅用于事实查询和语音合成
 
 ```mermaid
 graph LR
@@ -167,7 +167,7 @@ graph LR
     end
 
     subgraph Partners["Partner Apps"]
-        A1["eKYSS<br/>(Teacher)"]
+        A1["Language App<br/>(Teacher)"]
         A2["Therapy App<br/>(Counselor)"]
         A3["Shopping<br/>(Stylist)"]
     end
@@ -193,7 +193,7 @@ graph LR
 ## 相关项目
 
 - [**NVatar**](https://github.com/nskit-io/nvatar) — 本Franchise 架构所基于的AI虚拟形象引擎
-- [**NVatar Demo**](https://nskit-io.github.io/nvatar-demo/) — 在浏览器中体验
+- [**NVatar Demo**](https://nskit-io.github.io/nvatar-demo/) — 浏览器演示（演示服务器维护中，暂时下线；仍可从源码运行）
 - [**avatar-chat**](https://github.com/nskit-io/avatar-chat) — 角色AI的Prompt工程
 - [**chat-like-human-memory**](https://github.com/nskit-io/chat-like-human-memory) — 情感 + 人格 + 记忆引擎
 - [**customize-local-llm**](https://github.com/nskit-io/customize-local-llm) — 本地/云端混合路由

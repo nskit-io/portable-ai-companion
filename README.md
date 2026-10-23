@@ -72,7 +72,7 @@ NVatar (Home App)
   └── World-shared items (usable across all apps)
 
 Partner Apps (Workplaces)
-  ├── eKYSS: Language learning — avatar becomes a tutor
+  ├── Language-learning app: avatar becomes a tutor
   ├── Therapy app: Counseling — avatar becomes a listener
   ├── Shopping: Virtual fitting — avatar becomes a stylist
   └── Each partner has own marketplace → own revenue
@@ -144,7 +144,7 @@ Phase 1.5: SDK Architecture ✅ — BehaviorPattern Registry, Franchise Memory, 
   ├── God Mode ✅ — context_router + user_profiler (blind analysis)
   ├── Identity Preservation ✅ — domain work doesn't change personality
   ├── Code Assist (first pattern) ✅ — Claude Code relay via MCP channel
-  └── eKYSS partner integration 🔲 — designed, implementation pending
+  └── Language-learning partner integration 🔲 — designed, implementation pending
 Phase 2: Room Customization — furniture, themes, lighting
 Phase 3: Cell-Based Expansion — rooms grow from 1x1 to multi-cell layouts
 Phase 4: Neighbor Visits — avatars visit each other's rooms
@@ -161,7 +161,7 @@ Cross-app personality portability raises critical questions about data ownership
 - **Granular export control** — users can choose to share full personality or limited context per partner app
 - **Partner apps never store personality data** — they receive a session-scoped view, the canonical data lives in NVatar
 - **Right to delete** — user can wipe all data across all partner apps from a single control point
-- **Local-first architecture** — core AI inference runs on user's hardware, minimizing cloud exposure
+- **Local LLM core** — dialogue inference runs on operator-controlled hardware rather than a third-party LLM API; cloud services are used only for fact lookups and speech synthesis
 
 ```mermaid
 graph LR
@@ -174,7 +174,7 @@ graph LR
     end
 
     subgraph Partners["Partner Apps"]
-        A1["eKYSS<br/>(Teacher)"]
+        A1["Language App<br/>(Teacher)"]
         A2["Therapy App<br/>(Counselor)"]
         A3["Shopping<br/>(Stylist)"]
     end
@@ -202,7 +202,7 @@ The 2022 patent applications established the foundational concepts of **profile 
 - [**NVatar**](https://github.com/nskit-io/nvatar) — The AI avatar engine this franchise architecture is built on
 - [**NVatar SDK**](https://github.com/nskit-io/nvatar-sdk) — SDK guide for building custom BehaviorPatterns (MIT)
 - [**NVatar Code Assist**](https://github.com/nskit-io/nvatar-code-assist) — Claude Code integration (first SDK pattern implementation)
-- [**NVatar Demo**](https://nskit-io.github.io/nvatar-demo/) — Try it in your browser
+- [**NVatar Demo**](https://nskit-io.github.io/nvatar-demo/) — Browser demo (temporarily offline while the demo server is under maintenance; you can still run it from source)
 - [**avatar-chat**](https://github.com/nskit-io/avatar-chat) — Prompt engineering for character AI
 - [**chat-like-human-memory**](https://github.com/nskit-io/chat-like-human-memory) — Emotion + personality + memory engine
 - [**customize-local-llm**](https://github.com/nskit-io/customize-local-llm) — Local/cloud hybrid routing
