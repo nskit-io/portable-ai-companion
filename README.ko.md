@@ -202,6 +202,8 @@ graph LR
 
 **CC BY-NC-SA 4.0** — Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 
+> 이 리포는 설계 패턴과 레퍼런스를 MIT 라이선스로 공개한 것입니다. NSKit 프레임워크 본체(런타임·스캐폴딩·검사기·운영 표준)는 Neoulsoft Inc. 의 비공개 자산이며 별도 상용 라이선스로 제공됩니다.
+
 이 문서는 소스 코드가 아닌 **개념 문서**입니다. 출처를 표시하면 비상업적 목적으로 자유롭게 공유하고 수정할 수 있습니다. 상업적 사용은 Neoulsoft Inc.의 서면 허가가 필요합니다.
 
 자세한 내용은 [LICENSE](LICENSE)를 참조하세요.

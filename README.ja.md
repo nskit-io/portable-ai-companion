@@ -202,6 +202,8 @@ graph LR
 
 **CC BY-NC-SA 4.0** — Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 
+> 本リポジトリは設計パターンとリファレンスを MIT ライセンスで公開するものです。NSKit フレームワーク本体（ランタイム・スキャフォールディング・チェッカー・運用標準）は Neoulsoft Inc. の非公開資産であり、別途商用ライセンスで提供されます。
+
 この文書はソースコードではなく、**コンセプト文書**です。出典を明記すれば、非商用目的で自由に共有・改変できます。商用利用にはNeoulsoft Inc.の書面による許可が必要です。
 
 詳細は[LICENSE](LICENSE)をご参照ください。

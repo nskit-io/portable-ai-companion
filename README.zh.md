@@ -202,6 +202,8 @@ graph LR
 
 **CC BY-NC-SA 4.0** — Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 
+> 本仓库以 MIT 许可证公开设计模式与参考资料。NSKit 框架本体（运行时、脚手架、检查器与运维标准）为 Neoulsoft Inc. 的非公开资产，另行以商业许可提供。
+
 本文档是**概念文档**，而非源代码。注明出处即可出于非商业目的自由分享和改编。商业使用需获得Neoulsoft Inc.的书面许可。
 
 详情请参阅[LICENSE](LICENSE)。

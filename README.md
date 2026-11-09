@@ -211,6 +211,8 @@ The 2022 patent applications established the foundational concepts of **profile 
 
 **CC BY-NC-SA 4.0** — Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 
+> This repository publishes the design pattern and reference material under the MIT License. The NSKit framework itself (runtime, scaffolding, checkers and operating standards) is proprietary to Neoulsoft Inc. and available under a separate commercial license.
+
 This is a **concept document**, not source code. You may share and adapt this material for non-commercial purposes with attribution. Commercial use requires written permission from Neoulsoft Inc.
 
 See [LICENSE](LICENSE) for details.
