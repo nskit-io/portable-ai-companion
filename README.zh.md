@@ -82,7 +82,7 @@ Partner Apps (Workplaces)
 
 | 主体 | 收入来源 |
 |------|----------|
-| NVatar (Neoulsoft) | SDK license + world-shared items + premium subscription |
+| NVatar (Neoulsoft Inc.) | SDK license + world-shared items + premium subscription |
 | Partner Apps | App-specific items + in-app purchases + service fees |
 
 ### SDK集成（Minimal Friction）

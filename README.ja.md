@@ -82,7 +82,7 @@ Partner Apps (Workplaces)
 
 | 主体 | 収益源 |
 |------|--------|
-| NVatar (Neoulsoft) | SDK license + world-shared items + premium subscription |
+| NVatar (Neoulsoft Inc.) | SDK license + world-shared items + premium subscription |
 | Partner Apps | App-specific items + in-app purchases + service fees |
 
 ### SDK連携（Minimal Friction）
@@ -193,7 +193,7 @@ graph LR
 ## 関連プロジェクト
 
 - [**NVatar**](https://github.com/nskit-io/nvatar) — このフランチャイズアーキテクチャの基盤となるAIアバターエンジン
-- [**NVatar Demo**](https://nskit-io.github.io/nvatar-demo/) — ブラウザデモ（デモサーバーのメンテナンスのため一時停止中。ソースから実行することは可能）
+- [**NVatar Demo**](https://nskit-io.github.io/nvatar-demo/) — ブラウザデモ（デモサーバーのメンテナンスのため一時停止中。ソースからは引き続き実行できます）
 - [**avatar-chat**](https://github.com/nskit-io/avatar-chat) — キャラクターAIのためのプロンプトエンジニアリング
 - [**chat-like-human-memory**](https://github.com/nskit-io/chat-like-human-memory) — 感情 + パーソナリティ + メモリエンジン
 - [**customize-local-llm**](https://github.com/nskit-io/customize-local-llm) — ローカル/クラウドハイブリッドルーティング
